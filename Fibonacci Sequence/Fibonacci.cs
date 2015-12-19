@@ -30,7 +30,7 @@ namespace Fibonacci_Sequence
     class Fibonacci
     {
         //based on the Fibonacci sequence formula x(n) = x(n-1) + x(n-2) where n = term and x(n) = sequence number
-        //works on the principle of adding two previous sequence numbers together in an interation
+        //works on the principle of adding two previous sequence numbers together in an interation 
         public static int FindXnIfNBiggerThanOrEqualsZero(int nTerm)
         {
             int first = 0, second = 1, sequenceNoXn = 1;

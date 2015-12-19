@@ -57,7 +57,7 @@ namespace Fibonacci_Sequence
             newform.Show();
         }
 
-        /*commence my own methods to manipulate the current form object
+        /*commence my own methods to manipulate the current form object 
         ___________________________________________________________________________________________*/
 
         //clears any visible error and answer messages from previous usage

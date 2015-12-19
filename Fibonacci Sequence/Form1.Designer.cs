@@ -261,9 +261,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(55, 235);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 13);
+            this.label4.Size = new System.Drawing.Size(87, 13);
             this.label4.TabIndex = 19;
-            this.label4.Text = "Term number n=";
+            this.label4.Text = "Term number n= ";
             // 
             // label5
             // 
@@ -288,9 +288,9 @@
             this.labelIsInSequence2.AutoSize = true;
             this.labelIsInSequence2.Location = new System.Drawing.Point(262, 335);
             this.labelIsInSequence2.Name = "labelIsInSequence2";
-            this.labelIsInSequence2.Size = new System.Drawing.Size(42, 13);
+            this.labelIsInSequence2.Size = new System.Drawing.Size(51, 13);
             this.labelIsInSequence2.TabIndex = 22;
-            this.labelIsInSequence2.Text = "Answer";
+            this.labelIsInSequence2.Text = "Answer 2";
             this.labelIsInSequence2.Visible = false;
             // 
             // labelIsInSequence3
@@ -298,9 +298,9 @@
             this.labelIsInSequence3.AutoSize = true;
             this.labelIsInSequence3.Location = new System.Drawing.Point(262, 348);
             this.labelIsInSequence3.Name = "labelIsInSequence3";
-            this.labelIsInSequence3.Size = new System.Drawing.Size(42, 13);
+            this.labelIsInSequence3.Size = new System.Drawing.Size(51, 13);
             this.labelIsInSequence3.TabIndex = 23;
-            this.labelIsInSequence3.Text = "Answer";
+            this.labelIsInSequence3.Text = "Answer 3";
             this.labelIsInSequence3.Visible = false;
             // 
             // FormFibonacci

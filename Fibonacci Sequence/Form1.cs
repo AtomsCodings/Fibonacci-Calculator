@@ -1,5 +1,5 @@
 ﻿/*****************************************************************************************************
-* Page Version and Last Updated: Version 1.0 16/12/15 by A Thomas                                    *
+* Page Version and Last Updated: Version 1.0 19/12/15 by A Thomas                                    *
 *                                                                                                    *
 * Code below only deals with displaying the Fibonacci sequence calculator only.                      * 
 *                                                                                                    *
@@ -10,8 +10,8 @@
 * Fibonacci explanation page is in FormFibonacciExplanation class in the Form2.cs file               *
 *                                                                                                    *                                                                                                   *
 * The sequence has the pattern of:                                                                   * 
-* (term)           n = ...	-6	-5	-4	-3	-2	-1	0	1	2	3	4	5	6	...                  *
-* (sequence no) x(n) =	...	-8	 5	-3	 2	-1	 1	0	1	1	2	3	5	8	...                  *
+* (term)           n =  ...  -6   -5   -4   -3   -2   -1   0   1   2   3   4   5   6   ...           *
+* (sequence no) x(n) =	...  -8    5   -3    2   -1    1   0   1   1   2   3   5   8   ...           *
 *                                                                                                    *
 * App is based on the formulas x(n) = x(n-1) + x(n-2), or the golden ratio formula                   *
 * x(n) ≈ ( phi^n - (1 - phi)^n ) / √5.                                                               *
@@ -20,7 +20,7 @@
 * App designed for range to be term n= +/-45, and max entry to see if number is a X(n) = sequence    *
 * number is +/- 2 * 10^9                                                                             *
 *                                                                                                    *
-* More information on the Fibanocci sequence itself is available in Form2.cs                         *
+* More information on the Fibonacci sequence itself is available in Form2.cs                         *
 ******************************************************************************************************/
 using System;
 using System.Windows.Forms;
@@ -103,7 +103,7 @@ namespace Fibonacci_Sequence
                     else if (nTerm >= 0)
                         xnAnswer = Fibonacci.FindXnIfNBiggerThanOrEqualsZero(nTerm);
                     labelNAnswerTerm.Visible = true;
-                    labelNAnswerTerm.Text = "This term gives X(" + nTerm + ") = " + xnAnswer + " in the Fibanocci sequence.";
+                    labelNAnswerTerm.Text = "This term gives X(" + nTerm + ") = " + xnAnswer + " in the Fibonacci sequence.";
                 }
             }
             else
@@ -131,7 +131,7 @@ namespace Fibonacci_Sequence
                 {
                     xnGoldenAnswer = Fibonacci.GoldenRatioFormula(nGoldenTerm);
                     labelGoldenAnswerTerm.Visible = true;
-                    labelGoldenAnswerTerm.Text = "This term gives X(" + nGoldenTerm + ") ≈ " + xnGoldenAnswer + " in the Fibanocci sequence.";
+                    labelGoldenAnswerTerm.Text = "This term gives X(" + nGoldenTerm + ") ≈ " + xnGoldenAnswer + " in the Fibonacci sequence.";
                 }
             }
             else
@@ -190,7 +190,7 @@ namespace Fibonacci_Sequence
                     if (inSequenceOneNTerm == -100 && inSequenceOneNTermOrMore[0] == -100)
                     {
                         labelIsInSequence1.Visible = true;
-                        labelIsInSequence1.Text = "That number does not exist in the Fibanocci sequence.";
+                        labelIsInSequence1.Text = "That number does not exist in the Fibonacci sequence.";
                     }
 
                 }

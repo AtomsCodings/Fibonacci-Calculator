@@ -88,7 +88,7 @@
             // 
             this.explanationToolStripMenuItem.Name = "explanationToolStripMenuItem";
             this.explanationToolStripMenuItem.Size = new System.Drawing.Size(222, 20);
-            this.explanationToolStripMenuItem.Text = "Explanation of the Fibanocci Sequence";
+            this.explanationToolStripMenuItem.Text = "Explanation of the Fibonacci Sequence";
             this.explanationToolStripMenuItem.Click += new System.EventHandler(this.explanationToolStripMenuItem_Click);
             // 
             // labelNFormulaStatic
@@ -100,7 +100,7 @@
             this.labelNFormulaStatic.Size = new System.Drawing.Size(415, 13);
             this.labelNFormulaStatic.TabIndex = 1;
             this.labelNFormulaStatic.Tag = " ";
-            this.labelNFormulaStatic.Text = "1.  Find the nth term of the Fibanocci sequence using the formula X(n) = X(n-1) +" +
+            this.labelNFormulaStatic.Text = "1.  Find the nth term of the Fibonacci sequence using the formula X(n) = X(n-1) +" +
     " X(n-2)";
             // 
             // labelGoldenFormulaStatic
@@ -110,7 +110,7 @@
             this.labelGoldenFormulaStatic.Name = "labelGoldenFormulaStatic";
             this.labelGoldenFormulaStatic.Size = new System.Drawing.Size(563, 13);
             this.labelGoldenFormulaStatic.TabIndex = 2;
-            this.labelGoldenFormulaStatic.Text = "2. Find the approximate nth term of the Fibanocci sequence using the golden ratio" +
+            this.labelGoldenFormulaStatic.Text = "2. Find the approximate nth term of the Fibonacci sequence using the golden ratio" +
     " formula X(n) ≈ ( ϕ^n - (1 - ϕ)^n ) / √5";
             // 
             // labelNoInSequenceStatic
@@ -333,7 +333,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormFibonacci";
-            this.Text = "Fibanocci Calculator";
+            this.Text = "Fibonacci Calculator";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
